@@ -53,7 +53,7 @@ echo "New person created with ID: " . $secondPerson->format()->id . PHP_EOL;
 $genderText = Person::genderToText($secondPerson->format()->gender);
 echo "Gender as text: " . $genderText . PHP_EOL;
 
-// Use the dateOfBirthToAge static method
+// Use the bDayToAge static method
 $age = Person::bDayToAge($secondPerson->format()->bDay);
 echo "Age: " . $age . " years" . PHP_EOL;
 
