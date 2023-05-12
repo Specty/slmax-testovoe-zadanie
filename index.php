@@ -39,7 +39,7 @@ try
 
 //
 // Test creating a new person and saving it to the database
-// firstName, secondName, bday (YYYY-MM-DD), gender (1-0), city
+// firstName, secondName, bday (YYYY-MM-DD), gender (0/1), city
 $person = new Person(null, 'Somename', 'Whatever', '1985-06-15', 0, 'Minsk');
 $person->save();
 echo "New person created with ID: " . $person->format()->id . PHP_EOL;
