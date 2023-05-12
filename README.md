@@ -1,7 +1,7 @@
 # slmax-testovoe-zadanie
 Example of output from index.php:
 
-===Testing class Person===
+===Testing class Person===\
 Caught exception: Name is invalid.
 Caught exception: Last name is invalid.
 Caught exception: Date is invalid.
